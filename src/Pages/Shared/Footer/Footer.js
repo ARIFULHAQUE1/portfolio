@@ -10,8 +10,8 @@ const year = new Date().getFullYear();
 
 const Footer = () => {
       return (
-            <div style={{ background: `url(${footer})`,backgroundSize:'100%'}}>
-                  <footer className="footer  p-10  text-base-content">
+            <div className='bg-zinc-800 ' >
+                  <footer className="footer  p-10  text-slate-200">
                         <div>
                               <span className="footer-title">Services</span>
                               <a className="link link-hover">Branding</a>
@@ -31,11 +31,11 @@ const Footer = () => {
                               <div className="grid grid-flow-col gap-4">
 
                                     <div>
-                                          <a href='https://www.facebook.com/arifulhuq.arif.7/'><img src={linkedin} alt="" /></a>
+                                          <a href='https://www.linkedin.com/in/ariful-haque-a9623b229/'><img src={linkedin} alt="" /></a>
                                     </div>
 
                                     <div>
-                                          <a href='https://www.linkedin.com/in/ariful-haque-a9623b229/'><img src={github} alt="" /></a>
+                                          <a href='https://github.com/ARIFULHAQUE1'><img src={github} alt="" /></a>
                                     </div>
 
                                     <div>
@@ -54,7 +54,7 @@ const Footer = () => {
                      
                   </footer>
                   <div>
-                        <p className='text-center text-slate-400'>Copyright © {year} || All right reserved </p>
+                        <p className='text-center text-slate-200'>Copyright © {year} || All right reserved </p>
                         </div>
             </div>
       );

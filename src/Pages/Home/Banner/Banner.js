@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import profile3 from '../../../images/profile3.png'
 import profile1 from '../../../images/profile1.png'
+import github from '../../../icons/github.png'
+import linkedin from '../../../icons/linkedin.png'
+import email from '../../../icons/email.png'
 
 
 
@@ -31,17 +34,27 @@ const Banner = () => {
                 </div>
               </div>
               <div>
-                <h3 className='text-[#fffbc4] text-xl font-bold text-center my-3'>Ariful Haque</h3>
+                <h3 className='text-[#fffbc4] text-xl font-bold text-center mt-1'>Ariful Haque</h3>
 
                 <h3 className='text-[#fffbc4] text-xl font-bold text-center underline underline-offset-8 '>Full Stack Web-Developer</h3>
                
 
                 <div className='mt-5 '>
-                  <p className=' text-center text-white font-bold text-xl hover:text-primary'><Link to='/'>Home</Link></p>
-                  <p className=' text-center text-white font-bold text-xl hover:text-primary'><Link to='/blog'>Blog</Link></p>
-                  <p className='text-center text-white font-bold text-xl hover:text-primary'><Link to='/about'>About</Link></p>
+                  <p className=' text-center text-white font-semibold text-xl hover:text-[#fffbc4]'><Link to='/'>Home</Link></p>
+                  <p className=' text-center text-white font-semibold text-xl hover:text-[#fffbc4]'><Link to='/blog'>Blog's</Link></p>
                   
-                  <p className=' text-center text-white font-bold text-xl hover:text-primary'><Link to='/contact'>Contact</Link></p>
+                  <p className=' text-center text-white font-semibold text-xl hover:text-[#fffbc4]'><Link to='/contact'>Contact</Link></p>
+
+                  <p className='text-center text-white font-semibold text-xl hover:text-[#fffbc4]'><Link to='/about'>About Me</Link></p>
+                  
+              
+                </div>
+
+                <div className='flex justify-center gap-2 mt-5'>
+                
+                 <a href="https://github.com/ARIFULHAQUE1"> <img width={'24px'} src={github} alt="" /></a>
+                  <a href="https://www.linkedin.com/in/ariful-haque-a9623b229/"><img width={'24px'}  src={linkedin} alt="" /></a>
+               <a href="https://mail.google.com/mail/u/0/#inbox"> <img width={'24px'}  src={email} alt="" /></a>
                 </div>
 
 

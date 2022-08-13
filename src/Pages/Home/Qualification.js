@@ -11,7 +11,7 @@ const Qualification = () => {
 
                   <h2 className='text-3xl font-bold font-serif text-center text-secondary pt-5'>Education & Qualification's</h2>
 
-                  <div className='my-8 '>
+                  <div className='mt-8 '>
 
                         <h3 className='text-bold text-2xl text-left ml-2 p-5 font-bold text-info'>Education</h3>
 
@@ -65,7 +65,7 @@ const Qualification = () => {
                         </div>
                         {/* Skill Area */}
                         <div>
-                              <h3 className='text-bold text-2xl font-bold text-info ml-2 text-left p-5'>My Skills</h3>
+                              <h3 className='text-bold text-2xl font-bold text-info ml-2 text-left p-5'>Technology Skills</h3>
                               <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-4 '>
 
 
@@ -151,7 +151,7 @@ const Qualification = () => {
                               </div>
 
                         </div>
-                        <div className='flex justify-center'>
+                        <div className='flex justify-center p-5'>
                               <a href='https://drive.google.com/file/d/1uftnSAFTgL30rbjQuKMYLdpJbNbgCvBh/view?usp=sharing'> <button className='btn bg-inherit border-success text-success '>Download Cv <FontAwesomeIcon className='ml-2' icon={faArrowCircleDown }></FontAwesomeIcon> </button></a>
                              
                         </div>
