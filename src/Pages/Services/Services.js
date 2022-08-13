@@ -6,7 +6,7 @@ import ui from '../../images/ui.jpg'
 const Services = () => {
       return (
             <div className=''>
-                  <h2 className='text-center text-3xl font-bold  text-primary font-serif'>What I Do?</h2>
+                  <h2 className='text-center text-3xl font-bold  text-primary font-serif underline underline-offset-4'>What I Do?</h2>
 
                   <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 my-7'>
                         <div className="card  bg-base-100 shadow-xl">

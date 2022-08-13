@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 const Work = () => {
       return (
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5 mb-10 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5 mb-10  '>
                   <div className="card bg-base-100 shadow-xl hover:bg-slate-100 shadow-xl ">
                         <div className="card-body">
                               <div className='flex'>
