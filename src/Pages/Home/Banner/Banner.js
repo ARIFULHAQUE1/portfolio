@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import profile3 from '../../../images/profile3.png'
-import profile4 from '../../../images/profile4.png'
-import binnary from '../../../images/binnary.jpg'
+import profile1 from '../../../images/profile1.png'
+
 
 
 
@@ -16,22 +16,22 @@ const Banner = () => {
         className="hero lg:min-h-screen  md:min-h-screen drawer"
         style={{ background: `url(${profile3})`, backgroundRepeat:'no-repeat', backgroundPosition: 'center', height: '550px' }} >
 
-        <div class="drawer">
-          <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-          <div class="drawer-content ">
+        <div className="drawer">
+          <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+          <div className="drawer-content ">
 
 
           </div>
-          <div class="drawer-side">
-            <label for="my-drawer" class="drawer-overlay"></label>
-            <div class="menu p-4 overflow-y-auto w-80 bg-gray-800">
-              <div class="avatar">
-                <div class="rounded-full">
-                  <img src={profile4} alt="" />
+          <div className="drawer-side">
+            <label htmlFor="my-drawer" className="drawer-overlay"></label>
+            <div className="menu p-4 overflow-y-auto w-80 bg-gray-800">
+              <div className="avatar">
+                <div className="rounded-full">
+                  <img src={profile1} alt="" />
                 </div>
               </div>
               <div>
-                <h3 className='text-[#fffbc4] text-xl font-bold text-center'>Ariful Haque</h3>
+                <h3 className='text-[#fffbc4] text-xl font-bold text-center my-3'>Ariful Haque</h3>
 
                 <h3 className='text-[#fffbc4] text-xl font-bold text-center underline underline-offset-8 '>Full Stack Web-Developer</h3>
                
@@ -59,7 +59,7 @@ const Banner = () => {
 
             {/* <button className='btn bg-inherit font-bold border-primary border-2 hover:bg-gradient-to-r from-primary to-secondary text-primary hover:text-white hover:border-0 '>Get Touch</button> */}
 
-            <label for="my-drawer" class="btn bg-inherit font-bold border-primary border-2 hover:bg-gradient-to-r from-primary to-secondary text-primary hover:text-white hover:border-0  drawer-button">Get Touch</label>
+            <label htmlFor="my-drawer" className="btn bg-inherit font-bold border-primary border-2 hover:bg-gradient-to-r from-primary to-secondary text-primary hover:text-white hover:border-0  drawer-button">Get Touch</label>
           </div>
         </div>
       </div>

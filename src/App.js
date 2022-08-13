@@ -1,4 +1,3 @@
-
 import {Routes,Route} from 'react-router-dom'
 import About from './Pages/Home/About';
 import Blog from './Pages/Home/Blog';
