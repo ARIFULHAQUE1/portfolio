@@ -48,7 +48,7 @@ const Contact = () => {
 
                         <div className=" w-full max-w-xs mb-4 ">
                         <h3 className='text-white font-semibold text-2xl text-center mb-3 uppercase'>Send Me A Note</h3>
-                              <div className='flex justify-center'>
+                              <div className='ml-16'>
                                     
                                     <form onSubmit={handleSubmit}>
 
