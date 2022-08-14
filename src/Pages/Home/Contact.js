@@ -13,7 +13,7 @@ const Contact = () => {
             const comment = event.target.userComment.value;
 
             const userFeedback = { name, email, comment }
-            fetch('http://localhost:5000/contact', {
+            fetch('https://polar-temple-04887.herokuapp.com/contact', {
                   method: 'POST',
                   headers: {
                         'Content-Type': 'application/json'
