@@ -42,19 +42,24 @@ const Contact = () => {
                         <div>
                               <Personalinfo></Personalinfo>
                               <div className='ml-5 mb-5'>
-                                    <button className=' btn bg-gradient-to-br from-primary via-orange-700 to-secondary uppercase w-36'>hire me</button>
+                                    <button className=' btn bg-gradient-to-br from-secondary via-orange-700 to-secondary uppercase w-36'>hire me</button>
                               </div>
                         </div>
 
                         <div className=" w-full max-w-xs mb-4 ">
-                        <h3 className='text-white font-semibold text-2xl text-center mb-3 uppercase'>Send Me A Note</h3>
+                              <h3 className='text-white font-semibold text-xl text-center mb-3 uppercase'>Send Me A Note</h3>
                               <div className='ml-16'>
-                                    
+
                                     <form onSubmit={handleSubmit}>
 
                                           <div className='grid lg:grid-cols-2 gap-5 text-white'>
-                                                <div ><input name='userName' type="text" placeholder="Enter name" className="input input-bordered w-full max-w-xs mb-4 bg-zinc-800" required /></div>
-                                                <div> <input name='userEmail' type="email" placeholder="Enter email" className="input input-bordered w-full max-w-xs mb-4 bg-zinc-800" required /></div>
+                                                <div >
+                                                      <input name='userName' type="text" placeholder="Enter name" className="input input-bordered w-full max-w-xs mb-4 bg-zinc-800" required />
+                                                </div>
+
+                                                <div >
+                                                      <input name='userEmail' type="email" placeholder="Enter email" className="input input-bordered w-full max-w-xs mb-4 bg-zinc-800" required />
+                                                </div>
                                           </div>
 
                                           <textarea name='userComment' className="textarea w-full  mb-4 bg-zinc-800 text-white" placeholder="Tell Me About your Needs" required></textarea>

@@ -13,7 +13,7 @@ const Services = () => {
                               <figure><img src={ui} alt="ui/ux design" /></figure>
                                     <div className="card-body text-white bg-gradient-to-r from-secondary to-primary">
                                           <h2 className="text-center font-bold text-xl">UI/UX Design</h2>
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dicta quos magni optio nisi animi eveniet vero consequatur. Expedita quod possimus esse reprehenderit dolor totam ea sed sint ex facilis.</p>
+                                          <p className='font-mono'>I am a professional UI/UX Designer. I have Done Many of Web-Application.I Use Latest Technology to Build a Application. I Try My best to Give a Authentic User Experience to Explore the application. </p>
                                     </div>
                                     
                               </div>
@@ -22,7 +22,7 @@ const Services = () => {
                               <figure><img src={developement} alt="Shoes" /></figure>
                                     <div className="card-body text-white bg-gradient-to-r from-accent to-primary">
                                           <h2 className="text-center font-bold text-xl">Development</h2>
-                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nam, cupiditate ipsum sequi vero et tenetur dolor consectetur dolorem hic expedita eos officiis? Illum, culpa reprehenderit aut pariatur nobis numquam.</p>
+                                          <p className='font-mono'>I Develope Many Application like E-commerce, Business-organizations, Warehouse-management, portfolio. I'm Professional at Web-application Development.</p>
                                     </div>
                                     
                               </div>
@@ -30,7 +30,7 @@ const Services = () => {
                               <figure><img src={code} alt="Shoes" /></figure>
                                     <div className="card-body text-white bg-gradient-to-r from-accent to-extra">
                                           <h2 className="text-center font-bold text-xl">Code Testing</h2>
-                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nisi quis voluptas cum enim harum consectetur officiis maxime placeat sed optio fugit, perspiciatis magnam nostrum, natus, incidunt repellendus neque facilis.</p>
+                                          <p className='font-mono'>Fixing Bug it like a Hobby for me. I Tested many Full-stack Project. And I Fix The Problem of Code. Sometimes its hard to Do But Finally i Done It.</p>
                                     </div>
                                     
                               </div>
