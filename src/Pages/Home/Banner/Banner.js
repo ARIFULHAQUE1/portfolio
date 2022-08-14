@@ -4,7 +4,7 @@ import profile3 from '../../../images/profile3.png'
 import profile1 from '../../../images/profile1.png'
 import github from '../../../icons/github.png'
 import linkedin from '../../../icons/linkedin.png'
-import email from '../../../icons/email.png'
+import twitter from '../../../icons/twitter.png'
 
 
 
@@ -40,12 +40,12 @@ const Banner = () => {
                
 
                 <div className='mt-5 '>
-                  <p className=' text-center text-white font-semibold text-xl hover:text-[#fffbc4]'><Link to='/'>Home</Link></p>
-                  <p className=' text-center text-white font-semibold text-xl hover:text-[#fffbc4]'><Link to='/blog'>Blog's</Link></p>
+                  <p className=' text-center text-white font-semibold text-xl hover:text-primary'><Link to='/'>Home</Link></p>
+                  <p className=' text-center text-white font-semibold text-xl hover:text-primary'><Link to='/blog'>Blog's</Link></p>
                   
-                  <p className=' text-center text-white font-semibold text-xl hover:text-[#fffbc4]'><Link to='/contact'>Contact</Link></p>
+                  <p className=' text-center text-white font-semibold text-xl hover:text-primary'><Link to='/contact'>Contact</Link></p>
 
-                  <p className='text-center text-white font-semibold text-xl hover:text-[#fffbc4]'><Link to='/about'>About Me</Link></p>
+                  <p className='text-center text-white font-semibold text-xl hover:text-primary'><Link to='/about'>About Me</Link></p>
                   
               
                 </div>
@@ -54,7 +54,7 @@ const Banner = () => {
                 
                  <a href="https://github.com/ARIFULHAQUE1"> <img width={'24px'} src={github} alt="" /></a>
                   <a href="https://www.linkedin.com/in/ariful-haque-a9623b229/"><img width={'24px'}  src={linkedin} alt="" /></a>
-               <a href="https://mail.google.com/mail/u/0/#inbox"> <img width={'24px'}  src={email} alt="" /></a>
+               <a href="https://mail.google.com/mail/u/0/#inbox"> <img width={'24px'}  src={twitter} alt="" /></a>
                 </div>
 
 
@@ -70,7 +70,7 @@ const Banner = () => {
             <h1 className="mb-1 text-3xl font-bold ">I Design & Build </h1>
             <h1 className="mb-1 text-3xl font-bold">Creative Products </h1>
 
-            {/* <button className='btn bg-inherit font-bold border-primary border-2 hover:bg-gradient-to-r from-primary to-secondary text-primary hover:text-white hover:border-0 '>Get Touch</button> */}
+           
 
             <label htmlFor="my-drawer" className="btn bg-inherit font-bold border-primary border-2 hover:bg-gradient-to-r from-primary to-secondary text-primary hover:text-white hover:border-0  drawer-button">Get Touch</label>
           </div>

@@ -7,7 +7,7 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
 const Work = () => {
       return (
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5 mb-10  '>
-                  <div className="card bg-base-100 shadow-xl hover:bg-slate-100 shadow-xl ">
+                  <div className="card bg-base-100  hover:bg-slate-100 shadow-xl ">
                         <div className="card-body">
                               <div className='flex'>
                                     <div className='flex-1 mt-4'>
@@ -22,7 +22,7 @@ const Work = () => {
                         </div>
 
                   </div>
-                  <div className="card bg-base-100 shadow-xl hover:bg-slate-100 shadow-xl">
+                  <div className="card bg-base-100  hover:bg-slate-100 shadow-xl">
                         <div className="card-body">
                               
 
@@ -40,7 +40,7 @@ const Work = () => {
                         </div>
 
                   </div>
-                  <div className="card bg-base-100 shadow-xl hover:bg-slate-100 shadow-xl">
+                  <div className="card bg-base-100  hover:bg-slate-100 shadow-xl">
                         <div className="card-body ">
                               
 

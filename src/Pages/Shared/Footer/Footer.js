@@ -4,7 +4,10 @@ import facebook from '../../../icons/facebook.png'
 import twitter from '../../../icons/twitter.png'
 import linkedin from '../../../icons/linkedin.png'
 import github from '../../../icons/github.png'
-import footer from '../../../images/footer.png'
+import { Link } from 'react-router-dom';
+
+
+
 
 const year = new Date().getFullYear();
 
@@ -21,8 +24,10 @@ const Footer = () => {
                         </div>
                         <div>
                               <span className="footer-title">Company</span>
-                              <a className="link link-hover">About us</a>
-                              <a className="link link-hover">Contact</a>
+                  
+                              <Link to='/contact'>Contact</Link>
+                              <Link to='/about'>About</Link>
+                             
                               <a className="link link-hover">Jobs</a>
                               <a className="link link-hover">Press kit</a>
                         </div>

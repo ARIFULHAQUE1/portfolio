@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleArrowDown,faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
 import cap from '../../icons/cap.png'
 import school from '../../icons/school.png'
-import { Link } from 'react-router-dom';
+
 
 const Qualification = () => {
       return (
