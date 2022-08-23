@@ -8,7 +8,7 @@ const Services = () => {
             <div className=''>
                   <h2 className='text-center text-3xl font-bold  text-primary font-serif underline underline-offset-4'>What I Do?</h2>
 
-                  <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 my-7'>
+                  <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-7'>
                         <div className="card  bg-base-100 shadow-xl">
                               <figure><img src={ui} alt="ui/ux design" /></figure>
                                     <div className="card-body text-white bg-gradient-to-r from-secondary to-primary">

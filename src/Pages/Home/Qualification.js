@@ -15,7 +15,7 @@ const Qualification = () => {
 
                         <h3 className='text-bold text-2xl text-left ml-2 p-5 font-bold text-info'>Education</h3>
 
-                        <div className='p-5 grid lg:grid-cols-2 sm:grid-cols-1 gap-4 '>
+                        <div className='p-5 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4 '>
                               <div className="card  bg-base-100 shadow-xl bg-black ">
 
 
@@ -66,7 +66,7 @@ const Qualification = () => {
                         {/* Skill Area */}
                         <div>
                               <h3 className='text-bold text-2xl font-bold text-info ml-2 text-left p-5'>Technology Skills</h3>
-                              <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-4 '>
+                              <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 '>
 
 
 
