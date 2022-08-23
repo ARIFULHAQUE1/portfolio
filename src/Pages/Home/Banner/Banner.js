@@ -67,8 +67,8 @@ const Banner = () => {
         <div className="hero-overlay bg-opacity-0"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md mt-4 ">
-            <h1 className="mb-1 text-3xl font-bold ">I Design & Build </h1>
-            <h1 className="mb-1 text-3xl font-bold">Creative Products </h1>
+            <h1 className="mb-1 text-3xl font-bold text-white">I Design & Build </h1>
+            <h1 className="mb-1 text-3xl font-bold text-white">Creative Products </h1>
 
            
 
